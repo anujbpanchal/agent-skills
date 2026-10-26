@@ -30,6 +30,7 @@ backs all of them:
 | Grok (xAI) | `mongodb`, `mongodb-atlas` | `.grok-plugin/marketplace.json` | `plugins/<name>/.grok-plugin/plugin.json` |
 | Copilot / VS Code | `mongodb-atlas` only | `.github/plugin/marketplace.json` | `plugins/<name>/.github/plugin/plugin.json` |
 | Antigravity | `mongodb`, `mongodb-atlas` | _(none)_ | `plugins/<name>/.agy-plugin/plugin.json` |
+| Kiro | `mongodb`, `mongodb-atlas` | _(none)_ | `plugins/<name>/.kiro-plugin/plugin.json` |
 
 The plugin format is shared across Grok, Copilot, VS Code, and Claude —
 Copilot/VS Code even accept `.claude-plugin/` files as a fallback, so the

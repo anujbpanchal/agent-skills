@@ -75,12 +75,10 @@ find `mongodb-atlas`, and select **Install**.
 1. Open the **Powers** panel and choose **Add power from GitHub**, then enter:
 
    ```
-   https://github.com/mongodb/agent-skills/tree/main/kiro
+   https://github.com/mongodb/agent-skills/tree/main/plugins/mongodb-atlas
    ```
 
-2. When prompted, configure `MDB_MCP_CONNECTION_STRING` (and optionally the `MDB_MCP_API_CLIENT_ID` / `MDB_MCP_API_CLIENT_SECRET` Atlas Service Account variables).
-
-   If you previously installed the standalone MongoDB power, update it via the Powers panel → select the power → **Check for updates**.
+2. When prompted, sign in to MongoDB Atlas in your browser to authorize the MCP server.
 
 ## Authentication
 
