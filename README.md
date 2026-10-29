@@ -75,7 +75,7 @@ find `mongodb-atlas`, and select **Install**.
 1. Open the **Powers** panel and choose **Add power from GitHub**, then enter:
 
    ```
-   https://github.com/mongodb/agent-skills/tree/main/plugins/mongodb-atlas
+   https://github.com/mongodb/agent-skills/tree/main/plugins/mongodb-atlas/.kiro-plugin
    ```
 
 2. When prompted, sign in to MongoDB Atlas in your browser to authorize the MCP server.
