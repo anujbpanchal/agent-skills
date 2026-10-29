@@ -69,7 +69,7 @@ To install just the agent skills without a plugin — via the Agent Skills Direc
 1. Open the **Powers** panel and choose **Add power from GitHub**, then enter:
 
    ```
-   https://github.com/mongodb/agent-skills/tree/main/plugins/mongodb
+   https://github.com/mongodb/agent-skills/tree/main/plugins/mongodb/.kiro-plugin
    ```
 
 2. When prompted, configure `MDB_MCP_CONNECTION_STRING` (and optionally the `MDB_MCP_API_CLIENT_ID` / `MDB_MCP_API_CLIENT_SECRET` Atlas Service Account variables).
